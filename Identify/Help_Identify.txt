@@ -1,0 +1,13 @@
+辨识文件使用方法
+运行Identify.m得到辨识结果，再运行verify_1.m得到仿真结果图
+注意：verify_1.m文件可以导入之前的辨识结果，将之前的辨识结果存储为result_of_experiment1.mat，便可以生成该辨识的结果。
+
+freewing.mat 实验一数据
+4.2-4 converted.mat 实验二数据
+由于两个实验文件类似，这里以实验一为例。
+Identify.m 最小二乘辨识主函数
+experiment1.m 实验一模型
+Fun.m 适应度函数
+Poltt.m 作图文件
+verify_1.m 实验一辨识结果出图
+result_of_experiment1.mat 辨识结果（变量为ID的横向量）

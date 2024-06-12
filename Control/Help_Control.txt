@@ -1,0 +1,7 @@
+控制文件使用方法
+Control_pendulum.slx 摇起到平衡的控制仿真文件
+Control_pendulum_LQR.slx 平衡区的仿真文件
+pendulum_LQR_sim.m 线性化后倒立摆模型
+pendulum_noliner_sim.m 未线性化后倒立摆模型
+pendulum_LQR.m 求取反馈矩阵K
+poltt.m 作图文件
